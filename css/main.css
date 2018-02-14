@@ -1,0 +1,4 @@
+#bgVideo {
+	width: 100%;
+	filter: blur(3px);
+}
