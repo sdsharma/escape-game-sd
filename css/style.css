@@ -781,7 +781,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 	margin-top:10px;
 }
 
-#header input {
+input, textarea {
 	margin:0px;
 	-webkit-appearance: none;
 	line-height:22px;
@@ -4982,4 +4982,23 @@ html[xmlns] .slides {
 
         .load8 .loader {
             border-left: 1.1em solid #ff9935;
+        }
+
+        .avatars {
+        	-webkit-border-radius: 50%; 
+			-moz-border-radius: 50%; 
+			border-radius: 50%;
+        }
+
+        .avatars-sub {
+        	padding-top: 20px;
+        }
+
+        .main-button-solid{
+        	background: #17bcb8;
+        }
+
+        .input-inverse{
+        	color: #000 !important;
+        	border-color: #17bcb8 !important;
         }
