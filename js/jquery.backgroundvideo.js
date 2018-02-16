@@ -35,9 +35,9 @@
 
       html += 'style="display:none;position:fixed;top:0;left:0;bottom:0;right:0;z-index:0;width:100%;height:100%;filter:blur(5px) saturate(140%);">';
 
-        html += '<source src="assets/front.mp4" type="video/mp4" />';
-        html += '<source src="assets/front.ogv" type="video/ogg" />';
-        html += '<source src="assets/front.webm" type="video/webm" />';
+        html += '<source src="./assets/front.mp4" type="video/mp4" />';
+        html += '<source src="./assets/front.ogv" type="video/ogg" />';
+        html += '<source src="./assets/front.webm" type="video/webm" />';
       
       html += 'bgvideo</video>';
       plugin.el.prepend(html);
