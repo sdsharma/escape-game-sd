@@ -7594,3 +7594,8 @@ body .feature-left .one-half, body .feature-right .one-half {
 	margin-top: -35px;
 }
 
+@media (max-width: 767px) {
+	#video_background{
+		display: none;
+	}
+}
