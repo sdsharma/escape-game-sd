@@ -7585,10 +7585,12 @@ body .feature-left .one-half, body .feature-right .one-half {
 	padding: 0 100px;
 }
 
+@media (min-width: 1100px) {
+	.match-com{
+		margin-top: 15px;
+	}
+}
 .gofundme {
-	margin-top: -48px;
+	margin-top: -35px;
 }
 
-.match-com{
-	margin-top: 15px;
-}
