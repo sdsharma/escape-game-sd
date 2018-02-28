@@ -7653,3 +7653,13 @@ readers do not read off random characters that represent icons */
 	.mobile-full-close {
 		margin-right: 31px;
 	}
+
+	.mobile-menu-item{
+		float: none !important;
+	}
+
+	.mobile-menu-align {
+		margin-top: 50%;
+	    text-align: center;
+	    width: 100vw;
+	}
