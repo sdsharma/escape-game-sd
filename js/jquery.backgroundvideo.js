@@ -72,7 +72,7 @@
       var centerY = (($(window).height() >> 1) - (plugin.$videoEl.height() >> 1)) | 0;
 
       if (plugin.settings.align == 'centerXY') {
-        plugin.$videoEl.css({ 'left': centerX, 'top': centerY - 5 });
+        plugin.$videoEl.css({ 'left': centerX, 'top': centerY });
         return;
       }
 
@@ -82,7 +82,7 @@
       }
 
       if (plugin.settings.align == 'centerY') {
-        plugin.$videoEl.css('top', centerY - 5);
+        plugin.$videoEl.css('top', centerY - 60);
         return;
       }
     }
