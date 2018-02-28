@@ -105,8 +105,14 @@ var url_video = "assets/lights.mp4";
 mediaCheck({
         media: '(max-width: 768px)',
         entry: function () {
-          var elem = document.getElementById("video_background");
-          elem.parentNode.removeChild(elem);
+          while(true){
+            var elem = document.querySelector("#video_background");
+            if(!elem){
+              break;
+            }
+            elem.parentElement.removeChild(elem);
+          }
+          
         },
         exit: function () {
 
