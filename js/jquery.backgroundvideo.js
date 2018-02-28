@@ -72,7 +72,7 @@
       var centerY = (($(window).height() >> 1) - (plugin.$videoEl.height() >> 1)) | 0;
 
       if (plugin.settings.align == 'centerXY') {
-        plugin.$videoEl.css({ 'left': centerX, 'top': centerY });
+        plugin.$videoEl.css({ 'left': centerX, 'top': centerY - 5 });
         return;
       }
 
@@ -82,7 +82,7 @@
       }
 
       if (plugin.settings.align == 'centerY') {
-        plugin.$videoEl.css('top', centerY - 60);
+        plugin.$videoEl.css('top', centerY - 5);
         return;
       }
     }
@@ -118,7 +118,7 @@ mediaCheck({
 
             var videobackground = new jQuery.backgroundVideo(jQuery('#header'), {
                 "align": "centerXY",
-                "width": 1280,
+                "width": 1452,
                 "height": 720,
                 "path": url_video, 
                 
