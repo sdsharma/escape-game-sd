@@ -75,3 +75,11 @@ media: '(max-width: 1024px)',
     });
 
 });
+
+jQuery('#mobile-toggle').click(function(){
+  jQuery('#mobile-full').slideDown("fast");
+});
+
+jQuery('#mobile-toggle-close').click(function(){
+  jQuery('#mobile-full').slideUp("fast");
+});
