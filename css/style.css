@@ -7576,3 +7576,19 @@ body .feature-left .one-half, body .feature-right .one-half {
 	padding: 10px 0 10px 20px;
     line-height: 40px; 
 } 
+
+.white {
+	color: #fff;
+}
+
+.hundred-pad{
+	padding: 0 100px;
+}
+
+.gofundme {
+	margin-top: -48px;
+}
+
+.match-com{
+	margin-top: 15px;
+}
