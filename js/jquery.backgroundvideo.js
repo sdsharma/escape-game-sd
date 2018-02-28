@@ -33,11 +33,11 @@
         html += ' poster="' + plugin.settings.poster + '" ';
       }
 
-      html += 'style="display:none;position:fixed;top:0;left:0;bottom:0;right:0;z-index:0;width:100%;height:100%;filter:blur(5px) saturate(140%);">';
+      html += 'style="display:none;position:fixed;top:0;left:0;bottom:0;right:0;z-index:0;width:100%;height:100%;filter:blur(3px) saturate(0%);">';
 
-        html += '<source src="./assets/front.mp4" type="video/mp4" />';
-        html += '<source src="./assets/front.ogv" type="video/ogg" />';
-        html += '<source src="./assets/front.webm" type="video/webm" />';
+        html += '<source src="./assets/lights.mp4" type="video/mp4" />';
+        html += '<source src="./assets/lights.ogv" type="video/ogg" />';
+        html += '<source src="./assets/lights.webm" type="video/webm" />';
       
       html += 'bgvideo</video>';
       plugin.el.prepend(html);
@@ -105,9 +105,9 @@ jQuery(document).ready(function () {
 /*-----------------------------------------------------------------------------------*/
 /*  01. INITIALISE VIDEO BACKGROUND
 /*-----------------------------------------------------------------------------------*/
-var url_video = "assets/front.mp4";
-var url_video2 = "assets/front.ogv";
-var url_video3 = "assets/front.webm";
+var url_video = "assets/lights.mp4";
+var url_video2 = "assets/lights.ogv";
+var url_video3 = "assets/lights.webm";
 mediaCheck({
         media: '(max-width: 768px)',
         entry: function () {

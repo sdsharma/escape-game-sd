@@ -7552,3 +7552,27 @@ body .feature-left .one-half, body .feature-right .one-half {
 }
 
 }
+
+.inner-menu {
+	position: fixed;
+  	left: 0;
+  	top: 0px;
+  	width: 100%;
+  	max-height: 60px;
+  	background: #111;
+	background: rgba(7,7,7,.9);
+  	-moz-transition: all 350ms ease;
+  	-webkit-transition: all 350ms ease;
+  	-o-transition: all 350ms ease;
+  	transition: all 350ms ease;
+  	z-index: 9999;
+}
+
+.dynamic-socials{
+	margin: 10px;
+}
+
+.inner-menu #nav a {
+	padding: 10px 0 10px 20px;
+    line-height: 40px; 
+} 
