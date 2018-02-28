@@ -4753,7 +4753,7 @@ li.current-cat-parent {}
 						}
 
 						.mobile-menu-inner .nav-mobile li:hover {
-							
+
 						}
 
 						.mobile-menu-inner .nav-mobile li:hover a {
@@ -7082,7 +7082,7 @@ readers do not read off random characters that represent icons */
 	body #footer .lead {
 		width:100%;
 	}
-	
+
 	#footer #footer-inside {
 		text-align:left;
 	}
@@ -7484,7 +7484,7 @@ readers do not read off random characters that represent icons */
 		width:100%;
 		margin-bottom:0px;
 	}
-	
+
 	#content-wrapper .no-bottom {
 		padding-bottom:0px !important;
 	}
@@ -7566,6 +7566,12 @@ readers do not read off random characters that represent icons */
 		-o-transition: all 350ms ease;
 		transition: all 350ms ease;
 		z-index: 9999;
+	}
+
+	@media (max-width: 1024px) {
+		.inner-menu {
+			display: none;
+		}
 	}
 
 	.dynamic-socials{
