@@ -7472,7 +7472,7 @@ readers do not read off random characters that represent icons */
 	}
 
 	.home #header .extra {
-		padding-top:20px;
+		padding-top: 58px;
 	}
 
 	.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth, .two-fifth,.three-fifth, .four-fifth, .one-sixth, .five-sixth {
@@ -7621,6 +7621,10 @@ readers do not read off random characters that represent icons */
 		z-index: 9999;
 	}
 
+	.inner-menu-mobile nav {
+		margin-top: -7px;
+	}
+
 	@media (min-width: 1025px) {
 		.inner-menu-mobile {
 			display: none;
@@ -7652,6 +7656,7 @@ readers do not read off random characters that represent icons */
 
 	.mobile-full-close {
 		margin-right: 31px;
+		margin-top: 0px;
 	}
 
 	.mobile-menu-item{
@@ -7663,3 +7668,13 @@ readers do not read off random characters that represent icons */
 	    text-align: center;
 	    width: 100vw;
 	}
+
+	@media only screen and (max-width: 1024px){
+		#main-wrap .logo {
+		    display: none;	
+		}
+
+		#main-wrap .socials {
+			display: none;
+		}
+    }
