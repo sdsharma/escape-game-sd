@@ -118,7 +118,7 @@ mediaCheck({
 
             var videobackground = new jQuery.backgroundVideo(jQuery('#header'), {
                 "align": "centerXY",
-                "width": 1452,
+                "width": 1450,
                 "height": 720,
                 "path": url_video, 
                 
