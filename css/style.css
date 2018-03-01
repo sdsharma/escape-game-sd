@@ -61,7 +61,7 @@ a {
 
 .row-header {
 	line-height:40px;
-	padding:40px 0;
+	padding:25px 0;
 	width:90%;
 	max-width:1040px;
 }
@@ -946,9 +946,9 @@ input, textarea {
 	color:#FFF !important;
 }
 
-#header .first-button .main-button {border: 2px solid #81b3ab;}
+#header .first-button .main-button {border: 2px solid #C0302A;}
 #header .first-button .main-button {color: #FFF;}
-#header .first-button .hvr-sweep-to-top:before, #header .first-button .hvr-sweep-to-bottom:before, #header .first-button .hvr-sweep-to-left:before, #header .first-button .hvr-sweep-to-right:before, #header .first-button .hvr-fade:hover, #header .first-button .hvr-bounce-to-top:before, #header .first-button .hvr-bounce-to-bottom:before, #header .first-button .hvr-bounce-to-left:before, #header .first-button .hvr-bounce-to-right:before {background:#81b3ab;}
+#header .first-button .hvr-sweep-to-top:before, #header .first-button .hvr-sweep-to-bottom:before, #header .first-button .hvr-sweep-to-left:before, #header .first-button .hvr-sweep-to-right:before, #header .first-button .hvr-fade:hover, #header .first-button .hvr-bounce-to-top:before, #header .first-button .hvr-bounce-to-bottom:before, #header .first-button .hvr-bounce-to-left:before, #header .first-button .hvr-bounce-to-right:before {background:#C0302A;}
 #header .second-button .main-button {border: 2px solid #81b3ab;}
 #header .second-button .main-button {color: #FFF;}
 #header .second-button .hvr-sweep-to-top:before, #header .second-button .hvr-sweep-to-bottom:before, #header .second-button .hvr-sweep-to-left:before, #header .second-button .hvr-sweep-to-right:before, #header .second-button .hvr-fade:hover, #header .second-button .hvr-bounce-to-top:before, #header .second-button .hvr-bounce-to-bottom:before, #header .second-button .hvr-bounce-to-left:before, #header .second-button .hvr-bounce-to-right:before {background:#81b3ab;}
@@ -4486,7 +4486,7 @@ li.current-cat-parent {}
 	bottom: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #fff;
+	background-color: #111;
 	z-index: 9999;
 }
 
@@ -4808,7 +4808,7 @@ li.current-cat-parent {}
 							background: rgba(7,7,7,.9);
 						}
 						#header .first-button .main-button {
-							border: 2px solid #ff9935;
+							border: 2px solid #C0302A;
 						}
 
 						#header .first-button .hvr-sweep-to-top:before,
@@ -4820,11 +4820,11 @@ li.current-cat-parent {}
 						#header .first-button .hvr-bounce-to-bottom:before,
 						#header .first-button .hvr-bounce-to-left:before,
 						#header .first-button .hvr-bounce-to-right:before {
-							background: #ff9935;
+							background: #C0302A;
 						}
 
 						#header .second-button .main-button {
-							border: 2px solid #ff9935;
+							border: 2px solid #00429C;
 						}
 
 						#header .second-button .hvr-sweep-to-top:before,
@@ -4836,7 +4836,7 @@ li.current-cat-parent {}
 						#header .second-button .hvr-bounce-to-bottom:before,
 						#header .second-button .hvr-bounce-to-left:before,
 						#header .second-button .hvr-bounce-to-right:before {
-							background: #ff9935;
+							background: #00429C;
 						}
 
 						#footer .first-button .main-button {
@@ -4936,7 +4936,7 @@ li.current-cat-parent {}
 						#respond .form-submit:hover,
 						#wp-calendar tr th,
 						#sidebar .widget_tag_cloud a:hover {
-							background: #ff9935;
+							background: #C0302A;
 						}
 
 						#sidebar .widget a:hover,
@@ -4979,7 +4979,7 @@ li.current-cat-parent {}
 						}
 
 						.load8 .loader {
-							border-left: 1.1em solid #ff9935;
+							border-left: 1.1em solid #C0302A;
 						}
 
 						.avatars {
