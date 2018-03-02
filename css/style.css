@@ -892,7 +892,7 @@ input, textarea {
 	color: #fff;
 	text-transform:uppercase;
 	font-size:12px;	
-	border:2px solid #17bcb8;
+	border:2px solid #C0302A;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
 	-webkit-transition-property: all;
 	-webkit-transition-duration: 300ms;
@@ -2241,16 +2241,16 @@ input, textarea {
 }
 
 ::-webkit-input-placeholder { 
-	color: #555b66;
+	color: #fff;
 }
 :-moz-placeholder {
-	color: #555b66;
+	color: #fff;
 }
 ::-moz-placeholder { 
-	color: #555b66;
+	color: #fff;
 }
 :-ms-input-placeholder { 
-	color: #555b66;
+	color: #fff;
 }
 
 #respond input[type="text"], #respond textarea {
@@ -4993,12 +4993,12 @@ li.current-cat-parent {}
 						}
 
 						.main-button-solid{
-							background: #17bcb8;
+							background: #C0302A;
 						}
 
 						.input-inverse{
-							color: #000 !important;
-							border-color: #17bcb8 !important;
+							color: #fff !important;
+							border-color: #C0302A !important;
 						}
 
 						@charset "UTF-8";/*!
