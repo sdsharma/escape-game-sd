@@ -3,7 +3,7 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decoration: none; } del { text-decoration: line-through; } table { border-collapse: collapse; border-spacing: 0; }
 
 body {
-	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	color: #7b858b;
 	font-size: 16px;
 	line-height: 1.8;
@@ -61,7 +61,7 @@ a {
 
 .row-header {
 	line-height:40px;
-	padding:25px 0;
+	padding:15px 0;
 	width:90%;
 	max-width:1040px;
 }
@@ -457,7 +457,7 @@ pre:before, .code:before {
 /*-----------------------------------------------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway','Open Sans',Helvetica,Arial,sans-serif;
+	font-family: 'Righteous', cursive;
 	font-style: normal;
 	font-weight: 700;
 	margin-bottom: 20px;
@@ -492,7 +492,7 @@ h6 {
 }
 
 .home-title {
-	font-family: 'Raleway','Open Sans',Helvetica,Arial,sans-serif;
+	font-family: 'Righteous', cursive;
 	font-style: normal;
 	font-weight: 700;
 	letter-spacing: .08em;
@@ -599,7 +599,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 #header .lead {
 	color: #F4F4F4;
 	text-transform:uppercase;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: 'Righteous', cursive;
 	font-weight: 400;
 	margin:0 auto;
 	padding-bottom:5px;
@@ -614,7 +614,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 }  
 
 #header h2 {
-	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-family: 'Righteous', cursive;;
 	font-size:44px;
 	margin-bottom:5px;
 	margin:0 auto;
@@ -640,7 +640,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 	margin-top: 10px;
 	font-weight: bold;
 	letter-spacing: 2px;
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 22px;
 	cursor: pointer;
 	width: auto;
@@ -740,7 +740,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 }
 
 .logo {
-	font-family: 'Raleway','Open Sans',Helvetica,Arial,sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	letter-spacing: .08em;
@@ -786,7 +786,7 @@ input, textarea {
 	-webkit-appearance: none;
 	line-height:22px;
 	padding:11px 24px;
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	letter-spacing:2px;
 	text-transform:uppercase;
 	border:2px solid #FFF;
@@ -804,7 +804,7 @@ input, textarea {
 	display: inline-block;
 	font-weight: bold;
 	letter-spacing:0px;
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif !important;
+	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 20px;
 	cursor: pointer;
 	width: auto;
@@ -885,7 +885,7 @@ input, textarea {
 	display: inline-block;
 	font-weight: bold;
 	letter-spacing:0px;
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 22px;
 	cursor: pointer;
 	width: auto;
@@ -927,7 +927,7 @@ input, textarea {
 	display: inline-block;
 	font-weight: bold;
 	letter-spacing:0px;
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 22px;
 	cursor: pointer;
 	width: auto;
@@ -1131,7 +1131,7 @@ input, textarea {
 	position:fixed;
 	background:#17bcb8;
 	padding:0px 12px;
-	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	text-align: left;
 	font-size: 12px;
 	font-weight: 600;
@@ -1148,7 +1148,7 @@ input, textarea {
 }
 
 .navigation a {
-	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	color: #FFF;
 	padding: 0px;
 	display: block;
@@ -1165,8 +1165,8 @@ input, textarea {
 
 .nav a {
 	position:relative;
-	font-family: 'Raleway','Open Sans',Helvetica,Arial,sans-serif;
-	font-size: 11px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
 	font-weight: 700;
 	letter-spacing: .08em;
 	color: #8e8e8e;
@@ -1286,7 +1286,7 @@ input, textarea {
 	float: left;
 	line-height:1;
 	padding:10px 20px 10px 20px;
-	font-family: 'Raleway','Open Sans',Helvetica,Arial,sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;;
 	font-size: 11px;
 	font-weight: 700;
 	letter-spacing: .08em;
@@ -1392,7 +1392,7 @@ input, textarea {
 /* Read more link */
 
 .more-link {
-	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: bold;
 	font-size: 10px;
 	text-transform: uppercase;
@@ -1513,7 +1513,7 @@ input, textarea {
 }
 
 .extra-header-info, .extra-header-info a {
-	font-family: "Open Sans", sans serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	color: rgba(255,255,255,0.70) !important;
 	font-size:16px;
 }
@@ -1537,7 +1537,7 @@ input, textarea {
 
 .date-title {
 	color: #7b858b;
-	font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	display:block;
 	font-weight: bold;
 	margin-bottom:30px;
@@ -1572,7 +1572,7 @@ input, textarea {
 	list-style:none;
 	color: #b3b3b1;
 	text-decoration:none;
-	font-family: 'Open Sans', serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 }
@@ -1609,8 +1609,7 @@ input, textarea {
 }
 
 .archive-title {
-	font-family: "Noto Sans", sans-serif;
-	color: #555;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 12px;
 	text-transform:uppercase;
 	padding: 20px 0;
@@ -1917,7 +1916,7 @@ input, textarea {
 .news-blockquote p {
 	text-align:center;
 	position:relative;
-	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	color: #999;
 	font-size: 13px;
 	text-transform: none;
@@ -2046,7 +2045,7 @@ input, textarea {
 
 .load-content-posts a {
 	color: #b3b3b1;
-	font-family: 'Open Sans', serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	text-align: left;
@@ -2071,7 +2070,7 @@ input, textarea {
 
 .post-nav-left, .post-nav-left a {
 	color: #B0B8BD;
-	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: bold;
 	font-size: 10px;
 	text-transform: uppercase;
@@ -2093,7 +2092,7 @@ input, textarea {
 
 .post-nav-right, .post-nav-right a {
 	color: #B0B8BD;
-	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:'Roboto Condensed', sans-serif;
 	font-weight: bold;
 	font-size: 10px;
 	text-transform: uppercase;
@@ -2589,7 +2588,7 @@ input, textarea {
 #footer .lead {
 	color: #9c9999;
 	text-transform:uppercase;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 400;
 	margin:0 auto;
 	padding-bottom:5px;
@@ -2604,7 +2603,7 @@ input, textarea {
 }  
 
 #footer h2 {
-	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size:44px;
 	margin-bottom:5px;
 	margin:0 auto;
@@ -2700,7 +2699,7 @@ input, textarea {
 }
 
 .footer-bottom {
-	font-family: 'Raleway','Open Sans',Helvetica,Arial,sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 10px;
 	font-weight: 700;
 	letter-spacing: .08em;
@@ -2732,7 +2731,7 @@ input, textarea {
 	-webkit-appearance: none;
 	line-height:22px;
 	padding:11px 24px;
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: bold;
 	letter-spacing:0px;
 	font-size:12px;	
@@ -2758,7 +2757,7 @@ input, textarea {
 	background: none;
 	display: inline-block;
 	letter-spacing:0px;
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif !important;
+	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 22px;
 	cursor: pointer;
 	width: auto;
@@ -2823,7 +2822,7 @@ input, textarea {
 	display: block;
 	font-size: 12px;
 	color:#4d515c;
-	font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0px;
@@ -3275,7 +3274,7 @@ body input {
 	margin:0 auto;
 	width: 80%;
 	max-width: 800px;
-	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 600;
 	font-size: 10px;
 	text-transform: uppercase;
@@ -3313,7 +3312,7 @@ body input {
 	color: #616666;
 	font-style: normal;
 	font-size:13px;
-	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	-webkit-appearance:none;
 	border:none;
 	padding-top:10px;
@@ -3328,7 +3327,7 @@ body input {
 	color: #616666;
 	font-style: normal;
 	font-size:13px;
-	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	-webkit-appearance:none;
 	border:none;
 	width:100%;
@@ -3749,7 +3748,7 @@ input[type="password"] {
 	color: #777;
 	border: none;
 	background: #EEE;
-	font: 13px/22px "Noto Sans", sans serif;
+	font: 13px/22px 'Roboto Condensed', sans-serif;
 	width: 100%;
 	padding: 10px;
 	-webkit-box-sizing: border-box;
@@ -4143,7 +4142,7 @@ li.current-cat-parent {}
 	text-align:right;
 	padding:2px 0;
 	line-height:1.1;
-	font-family: 'Raleway', serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 9px;
 	text-transform: uppercase;
 	-webkit-transition: all 0.2s ease;
@@ -4367,7 +4366,7 @@ li.current-cat-parent {}
 }
 
 .title-blockquote h4 {
-	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 400;
 	text-align:left;
 	color: #4d515c;
@@ -4725,7 +4724,7 @@ li.current-cat-parent {}
 							margin-top: 1%;
 							margin-bottom:1%;
 							font-weight: 400;
-							font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+							font-family: 'Roboto Condensed', sans-serif;
 							line-height: 20px;
 							cursor: pointer;
 							width: auto;
@@ -4786,7 +4785,7 @@ li.current-cat-parent {}
 						}
 
 						.mobile-menu .toggle-sidebar {
-							font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+							font-family:'Roboto Condensed', sans-serif;
 							font-weight: bold;
 							padding:15px 0px;
 							margin:0 auto;
@@ -7703,4 +7702,8 @@ readers do not read off random characters that represent icons */
 		.social-hide {
 		    display: none !important;	
 		}
+    }
+
+    .thirteen-font {
+    	font-size: 13px;
     }
