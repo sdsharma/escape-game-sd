@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0" />
     <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
     <link rel='stylesheet' href='./css/style.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="./css/jquery.flipster.min.css">
     <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto+Condensed" rel="stylesheet">
     <script type='text/javascript' src='./js/jquery.js'></script>
 </head>
@@ -129,7 +130,25 @@
                         <div class="border-block"></div>
                     </div>
                     <div class="twelve columns">
-                        <p></p>
+                        <div class="my-flipster">
+                          <ul>
+                            <li>
+                                <div style="height: 300px">
+                                    <img src="./assets/japanese.png" style="height: 300px" />
+                                </div>
+                            </li>
+                            <li>
+                                <div style="height: 300px">
+                                    <img src="./assets/superhero.jpg" style="height: 300px" />
+                                </div>
+                            </li>
+                            <li>
+                                <div style="height: 300px">
+                                    <img src="./assets/wizard.jpg"  style="height: 300px" />
+                                </div>
+                            </li>
+                          </ul>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -150,6 +169,10 @@
             </section>
             </div>
         </div>
+        <script type='text/javascript' src='./js/jquery.flipster.min.js'></script>
+        <script>
+            jQuery('.my-flipster').flipster();
+        </script>
         <script type='text/javascript' src='./js/navigation.js'></script>
         <script type='text/javascript' src='./js/waypoints.min.js'></script>
         <script type='text/javascript' src='./js/jquery.scrollto.js'></script>
