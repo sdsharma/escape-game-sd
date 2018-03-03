@@ -7711,3 +7711,16 @@ readers do not read off random characters that represent icons */
     .even {
     	background: #001128;
     }
+
+    .full-width {
+    	width: 100%;
+    }
+
+    .left-text {
+    	text-align: left;
+    }
+
+    .submit-button {
+    	float: right;
+    	margin-right: -25px;
+    }
