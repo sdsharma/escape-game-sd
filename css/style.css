@@ -4999,6 +4999,7 @@ li.current-cat-parent {}
 						.input-inverse{
 							color: #fff !important;
 							border-color: #C0302A !important;
+							margin-bottom: 10px;
 						}
 
 						@charset "UTF-8";/*!
@@ -7723,4 +7724,12 @@ readers do not read off random characters that represent icons */
     .submit-button {
     	float: right;
     	margin-right: -25px;
+    }
+
+    .fifteen-font{
+    	font-size: 15px;
+    }
+
+    .minus-16-top {
+    	margin-top: -16px;
     }
