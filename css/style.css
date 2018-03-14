@@ -7712,7 +7712,7 @@ readers do not read off random characters that represent icons */
     }
 
     .even {
-    	background: #001128;
+		background: linear-gradient(223.53deg, #C0302A 0%, #540D0A 6.63%, #000000 43.65%, #000000 58.56%, #001736 89.5%, #00429C 100%), #000000;
     }
 
     .full-width {
@@ -7744,3 +7744,9 @@ readers do not read off random characters that represent icons */
     	margin-top: -70px;
     	margin-bottom: 50px;
     }
+
+    .section-head{
+    	margin-bottom: 50px !important;
+    }
+
+
