@@ -4982,14 +4982,16 @@ li.current-cat-parent {}
 						}
 
 						.avatars {
-							-webkit-border-radius: 50%; 
-							-moz-border-radius: 50%; 
-							border-radius: 50%;
 							height: 200px;
+							width: 200px;
 						}
 
 						.avatars-sub {
-							padding-top: 20px;
+						    background: #C0302A;
+						    width: 200px;
+						    margin: auto;
+						    height: 36px;
+    						line-height: 36px;
 						}
 
 						.main-button-solid{
@@ -7732,4 +7734,13 @@ readers do not read off random characters that represent icons */
 
     .minus-16-top {
     	margin-top: -16px;
+    }
+
+    .unpad-bottom {
+    	padding-bottom: 0 !important;
+    }
+
+    .subsection-head {
+    	margin-top: -70px;
+    	margin-bottom: 50px;
     }
