@@ -7473,7 +7473,7 @@ readers do not read off random characters that represent icons */
 	}
 
 	.home #header .extra {
-		padding-top: 58px;
+		padding-top: 150px;
 	}
 
 	.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth, .two-fifth,.three-fifth, .four-fifth, .one-sixth, .five-sixth {
@@ -7755,4 +7755,10 @@ readers do not read off random characters that represent icons */
 
     .hundred-top {
     	padding-top: 100px !important;
+    }
+
+    .winners {
+    	width: 305px;
+    	font-style: italic;
+    	margin: auto;
     }
