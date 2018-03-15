@@ -4982,13 +4982,11 @@ li.current-cat-parent {}
 						}
 
 						.avatars {
-							height: 200px;
-							width: 200px;
+							margin: 0;
 						}
 
 						.avatars-sub {
 						    background: #C0302A;
-						    width: 200px;
 						    margin: auto;
 						    height: 36px;
     						line-height: 36px;
