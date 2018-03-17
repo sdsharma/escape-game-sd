@@ -74,7 +74,7 @@
             <section class="centered clearfix even">
                 <div class="row clearfix">
                     <h2 class="flipInX animated section-head">FAQs</h2>
-                    <span class="one-third">
+                    <!-- <span class="one-third">
                         <h4><i class="fa fa-unlock-alt"></i>What's an Escape Game?</h4>
                         <p>Players work together in a themed room to solve a series a clues, hints, and puzzles to find themselves out from a locked room.</p>
                     </span>
@@ -121,31 +121,69 @@
                     <span class="one-third column-last">
                         <h4><i class="fa fa-times"></i>Can I be refused service?</h4>
                         <p>Yes. We reserve the right to refuse service if we deem you as a risk to yourself or others due to but not limited to being intoxicated, injured, or aggressive.</p>
-                    </span>
+                    </span> -->
+
+                    <button class="accordion">Parking and Directions</button>
+                    <div class="panel">
+                      <p style="padding: 32px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+
+                  <button class="accordion">Booking</button>
+                  <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+
+                  <button class="accordion">Gameplay</button>
+                  <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  <button class="accordion">Payment</button>
+                  <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+              </div>
+          </section>
+          <section id="footer">
+            <div class="row scrollme clearfix unpad">
+                <div class="columns clearfix wow fadeInUp animated">
+                    <ul class="socials clearfix">
+                        <li class="left-align white thirteen-font">
+                            3956 4th Avenue, San Diego, CA 92103<br />
+                            619-642-0095<br />
+                            escapegamesd@gmail.com
+                        </li>
+                        <li class="footer-icon-align"><a class="facebook" href="https://www.facebook.com/pages/Escape-Game-SD/906257946097842"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="yelp" href="http://www.yelp.com/biz/escape-game-sd-san-diego"><i class="fa fa-yelp"></i></a></li>
+                    </ul>
                 </div>
-            </section>
-             <section id="footer">
-                <div class="row scrollme clearfix unpad">
-                    <div class="columns clearfix wow fadeInUp animated">
-                        <ul class="socials clearfix">
-                            <li class="left-align white thirteen-font">
-                                    3956 4th Avenue, San Diego, CA 92103<br />
-                                    619-642-0095<br />
-                                    escapegamesd@gmail.com
-                            </li>
-                            <li class="footer-icon-align"><a class="facebook" href="https://www.facebook.com/pages/Escape-Game-SD/906257946097842"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="yelp" href="http://www.yelp.com/biz/escape-game-sd-san-diego"><i class="fa fa-yelp"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
             </div>
-        </div>
-        <script type='text/javascript' src='../js/navigation.js'></script>
-        <script type='text/javascript' src='../js/waypoints.min.js'></script>
-        <script type='text/javascript' src='../js/jquery.scrollto.js'></script>
-        <script type='text/javascript' src='../js/mediaCheck.js'></script>
-        <script type='text/javascript' src='../js/main.js'></script>
+        </section>
+    </div>
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+      } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+  });
+  }
+
+  acc[0].click();
+</script>
+<script type='text/javascript' src='../js/navigation.js'></script>
+<script type='text/javascript' src='../js/waypoints.min.js'></script>
+<script type='text/javascript' src='../js/jquery.scrollto.js'></script>
+<script type='text/javascript' src='../js/mediaCheck.js'></script>
+<script type='text/javascript' src='../js/main.js'></script>
 </body>
 
 </html>
