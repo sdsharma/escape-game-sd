@@ -7913,3 +7913,7 @@ readers do not read off random characters that represent icons */
 	.padleft25 {
 		padding-left: 25px;
 	}
+
+	.w15 {
+		width: 15px;
+	}
