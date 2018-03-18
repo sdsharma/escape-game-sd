@@ -7981,3 +7981,42 @@ readers do not read off random characters that represent icons */
 	    margin: 15px auto !important;
    		width: 100%;
 	}
+
+	.contact-team-button {
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		width: 106px;
+		height: 35px;
+		background: transparent;
+		border: 2px solid #FFF;
+		box-sizing: border-box;
+		font-size: 18px;
+		color: #FFFFFF;
+		padding: 4px;
+		text-align: center;
+		line-height: 22px;
+		margin-right: 8px;
+		margin-top: 160px;
+	}
+
+	.team-contact {
+		position: absolute;
+	    top: -15%;
+	    z-index: 2;
+	    width: 100%;
+	}
+
+	@media (max-width: 1024px) {
+		.team-contact {
+			position: absolute;
+		    top: -6%;
+		    z-index: 2;
+		    width: 100%;
+		}
+	}
+	@media (max-width: 768px) {
+		.team-contact {
+			position: relative;
+			padding-bottom: 24px;
+			margin-top: -45px;
+		}
+	}
