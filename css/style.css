@@ -7654,7 +7654,7 @@ readers do not read off random characters that represent icons */
 	}
 
 	.mobile-nav-fullscreen {
-		background: rgba(7,7,7,.9);
+		background: linear-gradient(223.53deg, #C0302A 0%, #540D0A 6.63%, #000000 43.65%, #000000 58.56%, #001736 89.5%, #00429C 100%), #000000;
 		height: 100vh;
 		width: 100vw;
 		z-index: 10000;
@@ -7673,6 +7673,10 @@ readers do not read off random characters that represent icons */
 
 	.mobile-menu-item{
 		float: none !important;
+	}
+
+	.mobile-menu-item a {
+		font-size: 24px;
 	}
 
 	.mobile-menu-align {
