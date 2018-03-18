@@ -8020,3 +8020,23 @@ readers do not read off random characters that represent icons */
 			margin-top: -45px;
 		}
 	}
+
+	.booking-img {
+		display: block;
+		width: 100%;
+	}
+
+	.booking-img-mobile {
+		display: none;
+		width: 100%;
+	}
+
+	@media (max-width: 768px) {
+		.booking-img {
+			display: none;
+		}
+
+		.booking-img-mobile {
+			display: block;
+		}
+	}
