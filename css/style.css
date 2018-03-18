@@ -8123,6 +8123,6 @@ readers do not read off random characters that represent icons */
 		}
 
 		.cover-fill {
-			width: 125vw;
+			width: 125vw !important;
 		}
 	}
