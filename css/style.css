@@ -2126,7 +2126,7 @@ input, textarea {
 
 .comments {
 	width: 100%;
-	padding-top:60px;
+	padding-top:60px !important;
 }
 
 #comments-title {
@@ -7607,6 +7607,9 @@ readers do not read off random characters that represent icons */
 		#video_background{
 			display: none;
 		}
+		.gofundme {
+			margin-top: 0px;
+		}
 	}
 
 	.inner-menu-mobile {
@@ -7916,4 +7919,65 @@ readers do not read off random characters that represent icons */
 
 	.w15 {
 		width: 15px;
+	}
+
+	.unwidth {
+		width: 100% !important;
+		max-width: none !important;
+	}
+
+	.full-img {
+		width: 33.33%;
+		float: left;
+	}
+
+	@media (max-width: 768px) {
+		.full-img {
+			width: 100%;
+			float: left;
+		}
+	}
+
+	.full-img img {
+		width: 100%;
+	}
+
+	.full-img-title {
+		position: absolute;
+	    top: 50%;
+	    z-index: 2;
+	    text-align: center;
+	    width: 33.33%;
+	}
+
+	@media (max-width: 768px) {
+		.full-img-title {
+			position: absolute;
+		    z-index: 2;
+		    text-align: center;
+		    width: 100%;
+		}
+
+		.comments .full-img:first-child .full-img-title {
+		    top: 17%;
+		}
+
+		.comments .full-img:nth-child(2) .full-img-title {
+		    top: 17%;
+		}
+
+		.comments .full-img:nth-child(3) .full-img-title {
+		    top: 50%;
+		}
+
+		.comments .full-img:nth-child(4) .full-img-title {
+		    top: 83%;
+		}
+	}
+
+	.team-title {
+		position: absolute;
+    	z-index: 2;
+	    margin: 15px auto !important;
+   		width: 100%;
 	}
