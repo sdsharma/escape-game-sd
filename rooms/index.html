@@ -135,6 +135,18 @@
                 }
             });
         });
+    window.onload = function() {
+        "use strict";
+        var acc = document.getElementsByClassName("room-chev");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("room-chev-active");
+            this.parentElement.classList.toggle("room-fullpage-expand");
+      });
+      }
+    };
     </script>
     <script type='text/javascript' src='../js/navigation.js'></script>
     <script type='text/javascript' src='../js/waypoints.min.js'></script>
