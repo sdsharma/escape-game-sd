@@ -8223,10 +8223,18 @@ readers do not read off random characters that represent icons */
   		visibility: visible;
 	}
 
+	.f28 {
+		font-size: 28px;
+	}
+
 	@media (max-width: 480px) {
 		.room-fullpage {
-			height: 33%;
+			height: 30%;
 
+		}
+
+		.show-room-desc {
+			margin-top: -20px;
 		}
 
 		.room-fullpage-expand {
@@ -8239,5 +8247,13 @@ readers do not read off random characters that represent icons */
 			left: calc(50% - 44px) !important;
 			right: auto !important;
     		top: auto !important;
+		}
+
+		.f28 {
+			font-size: 25px !important;
+		}
+
+		.room-stats {
+			margin-top: -15px;
 		}
 	}
