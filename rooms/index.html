@@ -74,31 +74,37 @@
         <div id="content-wrapper" class="clearfix">
             <section class="centered clearfix even">
                 <div id="fullpage">
-                    <div class="section clearfix" id="section0">
-                        <h2 class="home-title centered white">Japanese Thriller Room</h2>
-                        <div class="border-center">
-                            <div class="border-block"></div>
+                    <div class="section" id="section0">
+                        <div class="slide" id="w1" data-anchor="1">
+                            <img src="../assets/w1.jpg" class="con-fill" />
                         </div>
-                        <div class="twelve columns hundred-pad">
-                            <p class="white">Lights. Camera. Haunting. A Japanese reality game show is now accepting contestants for an escape game contest. Although more fun than scary, this game is set in the abandoned apartment of the infamous Japanese serial killer, Futoshi Matsunaga, who inspired Japanese thrillers like The Ring and The Grudge. Escape the place where victims fell prey to torturous atrocities and are now said to haunt the apartment.</p>
+                        <div class="slide" id="w2" data-anchor="2">
+                            <img src="../assets/w2.jpg" class="con-fill" />
+                        </div>
+                        <div class="slide" id="w3" data-anchor="3">
+                            <img src="../assets/wizard.jpg" class="con-fill" />
                         </div>
                     </div>
-                    <div class="section clearfix" id="section1">
-                        <h2 class="home-title centered white">Superheroes Adventure</h2>
-                        <div class="border-center">
-                            <div class="border-block"></div>
+                    <div class="section" id="section1">
+                        <div class="slide" id="j1" data-anchor="1">
+                            <img src="../assets/j1.png" class="con-fill" />
                         </div>
-                        <div class="twelve columns hundred-pad">
-                            <p class="white">You and a group of superheroes have been locked in a room by a villain. You have an hour to escape before a bomb detonates inside the room. Can you solve the clues in time to escape or will you be destroyed?</p>
+                        <div class="slide" id="j2" data-anchor="2">
+                            <img src="../assets/j2.png" class="con-fill" />
+                        </div>
+                        <div class="slide" id="j3" data-anchor="3">
+                            <img src="../assets/japanese.png" class="con-fill" />
                         </div>
                     </div>
                     <div class="section" id="section2">
-                        <h2 class="home-title centered white">Wizards and Spells</h2>
-                        <div class="border-center">
-                            <div class="border-block"></div>
+                        <div class="slide" id="s1" data-anchor="1">
+                            <img src="../assets/s1.jpg" class="con-fill" />
                         </div>
-                        <div class="twelve columns hundred-pad">
-                            <p class="white">Enter the Enchanted Grounds of the Select Dozen, a school of wizardry for the elite few. Beat Professor Wolfgang Lupus in a race across the school grounds in your entrance exam to the school. Grab your wand and cast a spell, try to get out before the bell.</p>
+                        <div class="slide" id="s2" data-anchor="2">
+                            <img src="../assets/s2.jpg" class="con-fill" />
+                        </div>
+                        <div class="slide" id="s3" data-anchor="3">
+                            <img src="../assets/superhero.jpg" class="con-fill" />
                         </div>
                     </div>
                 </div>
@@ -114,7 +120,13 @@
                 anchors: ['wizards', 'japanese', 'superheroes'],
                 scrollBar: true,
                 paddingTop: '60px',
-                scrollOverflow: true
+                scrollOverflow: true,
+                slidesNavigation: true,
+                // afterRender: function () {
+                //     setInterval(function () {
+                //         jQuery.fn.fullpage.moveSlideRight();
+                //     }, 4000);
+                // }
             });
         });
     </script>

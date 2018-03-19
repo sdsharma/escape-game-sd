@@ -8126,3 +8126,21 @@ readers do not read off random characters that represent icons */
 			width: 125vw !important;
 		}
 	}
+
+	.fp-controlArrow {
+		display: none;
+	}
+
+	.fp-slidesNav ul li .active {
+		color: transparent !important;
+	}
+
+	.fp-slidesNav ul li .active span {
+		color: #fff !important;
+		background-color: #fff !important;
+	}
+
+	.con-fill {
+		width: 100%;
+		height: 100%;
+	}
