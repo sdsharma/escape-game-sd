@@ -8200,6 +8200,20 @@ readers do not read off random characters that represent icons */
 		height: 50% !important;
 	}
 
+	.room-desc-sect {
+		position: absolute;
+		top: 125px;
+		opacity: 0;
+		transition: opacity .25s ease-out;
+		visibility: hidden;
+	}
+
+	.show-room-desc {
+  		opacity: 1;
+  		height: auto;
+  		visibility: visible;
+	}
+
 	@media (max-width: 480px) {
 		.room-fullpage {
 			height: 33%;
@@ -8207,7 +8221,7 @@ readers do not read off random characters that represent icons */
 		}
 
 		.room-fullpage-expand {
-			height: 66% !important;
+			height: 76% !important;
 		}
 
 		.room-book {

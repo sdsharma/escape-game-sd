@@ -80,6 +80,14 @@
                             <p class="room-stats"><i class="fa fa-clock-o padr8"></i>60 min<span class="p20d"></span><i class="fa fa-users padr8"></i>9 max<span class="p20d"></span><i class="fa fa-tachometer padr8"></i>Moderate</p>
                             <a class="contact-team-button room-book" href="../book-now/">Book Now</a>
                             <p class="room-chev"><i class="fa fa-chevron-down"></i></p>
+                            <div class="room-desc-sect p20d left-text">
+                                <span class="one-half">
+                                    <p>Enter the Enchanted Grounds of the Select Dozen, a school of wizardry for the elite few. Beat Professor Wolfgang Lupus in a race across the school grounds in your entrance exam to the school. Grab your wand and cast a spell, try to get out before the bell.</p>
+                                </span>
+                                <span class="one-half column-last">
+                                    <p>"Lorenzo our game master was great - he greeted us right away and got us warmed up with some fun riddles."</p>
+                                </span>
+                            </div>
                         </div>
                         <div class="slide" id="w1" data-anchor="1">
                             <img src="../assets/w1.jpg" class="con-fill" />
@@ -144,6 +152,7 @@
           acc[i].addEventListener("click", function() {
             this.classList.toggle("room-chev-active");
             this.parentElement.classList.toggle("room-fullpage-expand");
+            this.nextElementSibling.classList.toggle("show-room-desc");
       });
       }
     };
