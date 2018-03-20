@@ -113,7 +113,7 @@
                                     <p>A Japanese reality game show is now accepting contestants for an escape game contest. This game is set in the abandoned apartment of the infamous Japanese serial killer, Futoshi Matsunaga. Escape the place where victims fell prey to torturous atrocities and are now said to haunt the apartment.</p>
                                 </span>
                                 <span class="one-half column-last">
-                                    <p style="font-size: 20px">"The "haunting" was really unique! It added a really fun element."</p>
+                                    <p style="font-size: 20px">"The 'haunting' was really unique! It added a really fun element."</p>
                                     <p style="text-align: right;">- Janell W., Sacramento, CA</p>
                                     <p style="text-align: right;"><a href="https://www.yelp.com/biz/escape-game-sd-san-diego" style="color:#56CCF2;">See more on Yelp</a></p>
                                 </span>
@@ -178,6 +178,7 @@
                     }, 4000);
                 }
             });
+            window.slideright = jQuery.fn.fullpage.moveSlideRight.bind(this);
         });
     window.onload = function() {
         "use strict";
@@ -186,6 +187,11 @@
 
         for (i = 0; i < acc.length; i++) {
           acc[i].addEventListener("click", function() {
+            if(this.classList.length == 1){
+                jQuery.fn.fullpage.moveSlideRight = function(){};
+            } else {
+                jQuery.fn.fullpage.moveSlideRight = window.slideright;
+            }
             this.classList.toggle("room-chev-active");
             this.parentElement.classList.toggle("room-fullpage-expand");
             this.nextElementSibling.classList.toggle("show-room-desc");

@@ -8196,9 +8196,10 @@ readers do not read off random characters that represent icons */
 	.room-chev {
 		position: absolute;
 		bottom: 8px;
-		left: 50%;
 		font-size: 20px;
     	transition: transform 150ms ease;
+	    cursor: pointer;
+	    width: 100%;
 	}
 
 	.room-chev-active {
