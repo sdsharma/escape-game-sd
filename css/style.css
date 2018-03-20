@@ -8317,3 +8317,9 @@ readers do not read off random characters that represent icons */
 	.avatars img {
 		width: 100%;
 	}
+
+	@media (max-width: 1024px) {
+		.coverflow-margin {
+			margin-top: -170px !important;
+		}
+	}
