@@ -8123,9 +8123,6 @@ readers do not read off random characters that represent icons */
 			font-size: 1rem !important;
 		}
 
-		.cover-fill {
-			width: 125vw !important;
-		}
 	}
 
 	.fp-controlArrow {
@@ -8157,7 +8154,7 @@ readers do not read off random characters that represent icons */
 	}
 
 	.room-black {
-		background: rgba(0, 0, 0, 0.68);
+		background: rgba(0, 0, 0, 0.75);
 	}
 
 	.room-red {
@@ -8229,6 +8226,10 @@ readers do not read off random characters that represent icons */
 		font-size: 28px;
 	}
 
+	.h300img {
+		height: 300px;
+	}
+
 	@media (max-width: 480px) {
 		.room-fullpage {
 			height: 30%;
@@ -8246,7 +8247,7 @@ readers do not read off random characters that represent icons */
 		.room-book {
 			position: absolute;
 			bottom: 50px !important;
-			left: calc(50% - 44px) !important;
+			left: calc(50% - 52px) !important;
 			right: auto !important;
     		top: auto !important;
 		}
@@ -8259,6 +8260,10 @@ readers do not read off random characters that represent icons */
 			margin-top: -15px;
 		}
 
+		.h300img {
+			width: 300px;
+			object-fit: cover;
+		}
 
 	}
 
@@ -8307,4 +8312,8 @@ readers do not read off random characters that represent icons */
 		.con-fill {
 			object-fit: cover;
 		}
+	}
+
+	.avatars img {
+		width: 100%;
 	}
