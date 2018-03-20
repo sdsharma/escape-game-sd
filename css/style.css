@@ -8150,18 +8150,18 @@ readers do not read off random characters that represent icons */
 		position: absolute;
 		z-index: 2;
 		width: 100%;
-		background: linear-gradient(90deg, #00429C 0%, rgba(0, 66, 156, 0.580882) 51.38%, rgba(0, 66, 156, 0) 100%), rgba(0, 66, 156, 0.35);
+		background: rgba(0, 66, 156, 0.88);
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 		height: 25%;
 		transition: height 0.25s ease-in-out;
 	}
 
 	.room-black {
-		background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.580882) 76.24%, rgba(0, 0, 0, 0.25) 100%), rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.68);
 	}
 
 	.room-red {
-		background: linear-gradient(90deg, #C0302A 0%, rgba(192, 48, 42, 0.580882) 24.31%, rgba(192, 48, 42, 0) 100%), rgba(192, 48, 42, 0.5);
+		background: rgba(192, 48, 42, 0.88);
 	}
 
 	.room-title {
@@ -8258,6 +8258,8 @@ readers do not read off random characters that represent icons */
 		.room-stats {
 			margin-top: -15px;
 		}
+
+
 	}
 
 	.fp-slidesNav ul li a span {
@@ -8291,4 +8293,18 @@ readers do not read off random characters that represent icons */
 
 	.flipster__nav__item{
 		color: #C0302A;
+	}
+
+	.pr20-mob {
+		padding-right: none;
+	}
+
+	@media (max-width: 768px) {
+		.pr20-mob {
+			padding-right: 20px;
+		}
+
+		.con-fill {
+			object-fit: cover;
+		}
 	}
