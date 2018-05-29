@@ -8323,3 +8323,8 @@ readers do not read off random characters that represent icons */
 			margin-top: -170px !important;
 		}
 	}
+
+	.email-link {
+		color: #fff;
+    	text-decoration: underline;
+	}
