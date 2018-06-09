@@ -8328,3 +8328,41 @@ readers do not read off random characters that represent icons */
 		color: #fff;
     	text-decoration: underline;
 	}
+
+	.pt25 {
+		padding-top: 25%;
+	}
+
+	.pt50 {
+		padding-top: 50px;
+	}
+
+	.ip12 {
+		font-style: italic;
+		padding-top: 12px;
+	}
+
+	.yelp-link {
+		color: #56CCF2;
+	}
+
+	.f20 {
+		font-size: 20px;
+	}
+
+	.mh68 {
+		min-height: 68vh;
+	}
+
+	.location-width {
+		width: calc(100% - 32px);
+	}
+
+	.pt24 {
+		padding-top: 24px;
+	}
+
+	.gmap {
+		width: 100%;
+		margin-bottom: -8px;
+	}
