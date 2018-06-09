@@ -10,9 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto+Condensed" rel="stylesheet">
     <script type='text/javascript' src='../js/jquery.js'></script>
 </head>
-
 <body>
-
     <div id="loader">
         <div id="loading-status">
             <div class="load-container load8 ">
@@ -21,7 +19,6 @@
             </div>
         </div>
     </div>
-
     <div class="header inner-menu">
         <nav class="row clearfix">
             <div class="logo">
@@ -46,7 +43,6 @@
             </div>
         </nav>
     </div>
-
     <div class="header inner-menu-mobile">
         <nav class="row clearfix">
             <div class="logo">
@@ -70,7 +66,6 @@
             </div>
         </nav>
     </div>
-
     <div id="main-wrap" class="clearfix nopreload">
         <div id="content-wrapper" class="clearfix">
             <section class="centered clearfix even">
@@ -156,49 +151,7 @@
             </section>
         </div>
     </div>
-    <script type='text/javascript' src='../js/scrolloverflow.min.js'></script>
     <script type='text/javascript' src='../js/jquery.fullpage.min.js'></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-            jQuery('#fullpage').fullpage({
-                sectionsColor: ['#000', '#000', '#000'],
-                anchors: ['wizards', 'japanese', 'superheroes'],
-                scrollBar: true,
-                paddingTop: '60px',
-                scrollOverflow: true,
-                slidesNavigation: true,
-                afterRender: function () {
-                    setInterval(function () {
-                        jQuery.fn.fullpage.moveSlideRight();
-                    }, 4000);
-                }
-            });
-            window.slideright = jQuery.fn.fullpage.moveSlideRight.bind(this);
-        });
-    window.onload = function() {
-        "use strict";
-        var acc = document.getElementsByClassName("room-chev");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            // if(this.classList.length == 1){
-            //     jQuery.fn.fullpage.moveSlideRight = function(){};
-            // } else {
-            //     jQuery.fn.fullpage.moveSlideRight = window.slideright;
-            // }
-            this.classList.toggle("room-chev-active");
-            this.parentElement.classList.toggle("room-fullpage-expand");
-            this.nextElementSibling.classList.toggle("show-room-desc");
-      });
-      }
-    };
-    </script>
-    <script type='text/javascript' src='../js/navigation.js'></script>
-    <script type='text/javascript' src='../js/waypoints.min.js'></script>
-    <script type='text/javascript' src='../js/jquery.scrollto.js'></script>
-    <script type='text/javascript' src='../js/mediaCheck.js'></script>
     <script type='text/javascript' src='../js/main.js'></script>
 </body>
-
 </html>
