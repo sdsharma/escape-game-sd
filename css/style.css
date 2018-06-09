@@ -4108,11 +4108,6 @@ li.current-cat-parent {}
 
 /* Mobile navigation */
 
-.collapse-darker {
-	padding:40px 0;
-	background:url(images/darker.png);
-}
-
 #collapse ul {
 	padding-left:0px;
 	margin-left:0px;
